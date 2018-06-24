@@ -6,6 +6,8 @@
     <edmx:Diagrams>
       <Diagram DiagramId="25e47af5917c42629fe771a34dd136af" Name="Diagram1">
         <EntityTypeShape EntityType="EmployeePortalModel.Employee" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EmployeePortalModel.Employee_Type" Width="1.5" PointX="0.75" PointY="5.375" />
+        <AssociationConnector Association="EmployeePortalModel.FK_Employee_ToTable" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
